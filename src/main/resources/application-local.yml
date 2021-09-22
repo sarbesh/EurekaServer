@@ -1,5 +1,0 @@
----
-logging:
-  level:
-    ROOT: DEBUG
-    com.sarbesh.eurekaserver: DEBUG

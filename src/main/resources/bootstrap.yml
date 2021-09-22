@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Eureka-Server
+  profiles:
+    include: eureka   #,local #Remove '<space>#' before local to run with local config
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL:http://user:password@localhost:8888}
+      enabled: true

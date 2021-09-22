@@ -1,4 +1,0 @@
----
-security:
-  user:
-    password: ${eureka.password}
